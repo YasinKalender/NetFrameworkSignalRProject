@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+        <div class="container">
+            @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/Scripts/jquery.signalR-2.4.3.min.js"></script>
+
+    <script src="/signalr/hubs"></script>
+
+    <script>
+        $(function () {
+            //var connection = $.connection.chatHub;
+
+
+            //connection.client.broadcastMessage = function (userName, message) {
+            //    console.log("Mesaj alındı: ", userName, message);
+            //    $('#chatBox').append('<div><strong>' + userName + ':</strong> ' + message + '</div>');
+            //};
+
+
+            //$.connection.hub.start().done(function () {
+            //    console.log("SignalR bağlantısı başarılı.");
+
+            //    $('#sendButton').click(function () {
+            //        var userName = $('#userName').val();
+            //        var message = $('#message').val();
+
+            //        if (userName && message) {
+            //            connection.server.send(userName, message);
+            //            $('#message').val('').focus();
+            //        } else {
+            //            alert("Lütfen kullanıcı adı ve mesaj girin.");
+            //        }
+            //    });
+            //}).fail(function (err) {
+            //    console.error("SignalR bağlantı hatası: ", err);
+            //});
+
+
+            //$.connection.hub.stateChanged(function (change) {
+            //    console.log("Bağlantı durumu değişti:", change);
+            //});
+
+            //$.connection.hub.reconnected(function () {
+            //    console.log("SignalR yeniden bağlandı.");
+            //});
+
+            var connection = $.hubConnection();
+            var contractHub = connection.createHubProxy('chatHub');
+
+   
+            contractHub.on('receiveContractNotification', function (message) {
+                alert('Yeni Sözleşme Bildirimi: ' + message);
+            });
+
+
+            connection.start().done(function () {
+                console.log('SignalR bağlantısı başarılı!');
+            }).fail(function (err) {
+                console.error('SignalR bağlantısı başarısız: ' + err);
+            });
+
+            $('#sendContractButton').click(function () {
+
+                $.ajax({
+                    url: '/Home/NotifyUnSignedContracts',
+                    type: 'GET',
+                    success: function (data) {
+                        console.log(data); 
+                    },
+                    error: function (err) {
+                        console.error('Bir hata oluştu: ', err);
+                    }
+                });
+            });
+  
+        });
+
+    </script>
+
+</body>
+</html>

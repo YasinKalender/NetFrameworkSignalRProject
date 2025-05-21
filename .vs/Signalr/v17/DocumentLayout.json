@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hp\\Desktop\\Signalr\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16672295-BCD6-4C94-9804-42CDECBAD431}|Signalr.Console\\Signalr.Console.csproj|c:\\users\\hp\\desktop\\signalr\\signalr.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16672295-BCD6-4C94-9804-42CDECBAD431}|Signalr.Console\\Signalr.Console.csproj|solutionrelative:signalr.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C3E77D7-17D0-472D-89EC-A0D202F04A7E}|Signalr.ProjectExampleApi\\Signalr.ProjectExampleApi.csproj|c:\\users\\hp\\desktop\\signalr\\signalr.projectexampleapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C3E77D7-17D0-472D-89EC-A0D202F04A7E}|Signalr.ProjectExampleApi\\Signalr.ProjectExampleApi.csproj|solutionrelative:signalr.projectexampleapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C3E77D7-17D0-472D-89EC-A0D202F04A7E}|Signalr.ProjectExampleApi\\Signalr.ProjectExampleApi.csproj|c:\\users\\hp\\desktop\\signalr\\signalr.projectexampleapi\\hubs\\myhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C3E77D7-17D0-472D-89EC-A0D202F04A7E}|Signalr.ProjectExampleApi\\Signalr.ProjectExampleApi.csproj|solutionrelative:signalr.projectexampleapi\\hubs\\myhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C3E77D7-17D0-472D-89EC-A0D202F04A7E}|Signalr.ProjectExampleApi\\Signalr.ProjectExampleApi.csproj|c:\\users\\hp\\desktop\\signalr\\signalr.projectexampleapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3C3E77D7-17D0-472D-89EC-A0D202F04A7E}|Signalr.ProjectExampleApi\\Signalr.ProjectExampleApi.csproj|solutionrelative:signalr.projectexampleapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C3E77D7-17D0-472D-89EC-A0D202F04A7E}|Signalr.ProjectExampleApi\\Signalr.ProjectExampleApi.csproj|c:\\users\\hp\\desktop\\signalr\\signalr.projectexampleapi\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C3E77D7-17D0-472D-89EC-A0D202F04A7E}|Signalr.ProjectExampleApi\\Signalr.ProjectExampleApi.csproj|solutionrelative:signalr.projectexampleapi\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C3E77D7-17D0-472D-89EC-A0D202F04A7E}|Signalr.ProjectExampleApi\\Signalr.ProjectExampleApi.csproj|c:\\users\\hp\\desktop\\signalr\\signalr.projectexampleapi\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3C3E77D7-17D0-472D-89EC-A0D202F04A7E}|Signalr.ProjectExampleApi\\Signalr.ProjectExampleApi.csproj|solutionrelative:signalr.projectexampleapi\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C3E77D7-17D0-472D-89EC-A0D202F04A7E}|Signalr.ProjectExampleApi\\Signalr.ProjectExampleApi.csproj|c:\\users\\hp\\desktop\\signalr\\signalr.projectexampleapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C3E77D7-17D0-472D-89EC-A0D202F04A7E}|Signalr.ProjectExampleApi\\Signalr.ProjectExampleApi.csproj|solutionrelative:signalr.projectexampleapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C3E77D7-17D0-472D-89EC-A0D202F04A7E}|Signalr.ProjectExampleApi\\Signalr.ProjectExampleApi.csproj|c:\\users\\hp\\desktop\\signalr\\signalr.projectexampleapi\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C3E77D7-17D0-472D-89EC-A0D202F04A7E}|Signalr.ProjectExampleApi\\Signalr.ProjectExampleApi.csproj|solutionrelative:signalr.projectexampleapi\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Signalr\\Signalr.Console\\Program.cs",
+              "RelativeDocumentMoniker": "Signalr.Console\\Program.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Signalr\\Signalr.Console\\Program.cs",
+              "RelativeToolTip": "Signalr.Console\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:32:43.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Signalr\\Signalr.ProjectExampleApi\\Web.config",
+              "RelativeDocumentMoniker": "Signalr.ProjectExampleApi\\Web.config",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Signalr\\Signalr.ProjectExampleApi\\Web.config",
+              "RelativeToolTip": "Signalr.ProjectExampleApi\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-21T15:30:11.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Signalr\\Signalr.ProjectExampleApi\\packages.config",
+              "RelativeDocumentMoniker": "Signalr.ProjectExampleApi\\packages.config",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Signalr\\Signalr.ProjectExampleApi\\packages.config",
+              "RelativeToolTip": "Signalr.ProjectExampleApi\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-21T15:29:57.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Signalr\\Signalr.ProjectExampleApi\\Startup.cs",
+              "RelativeDocumentMoniker": "Signalr.ProjectExampleApi\\Startup.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Signalr\\Signalr.ProjectExampleApi\\Startup.cs",
+              "RelativeToolTip": "Signalr.ProjectExampleApi\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:28:33.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyHub.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Signalr\\Signalr.ProjectExampleApi\\Hubs\\MyHub.cs",
+              "RelativeDocumentMoniker": "Signalr.ProjectExampleApi\\Hubs\\MyHub.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Signalr\\Signalr.ProjectExampleApi\\Hubs\\MyHub.cs",
+              "RelativeToolTip": "Signalr.ProjectExampleApi\\Hubs\\MyHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:26:47.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Signalr\\Signalr.ProjectExampleApi\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "Signalr.ProjectExampleApi\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Signalr\\Signalr.ProjectExampleApi\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "Signalr.ProjectExampleApi\\Controllers\\ValuesController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwC8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:23:43.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Signalr\\Signalr.ProjectExampleApi\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Signalr.ProjectExampleApi\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Signalr\\Signalr.ProjectExampleApi\\Global.asax.cs",
+              "RelativeToolTip": "Signalr.ProjectExampleApi\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:23:09.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Signalr\\Signalr.ProjectExampleApi\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "Signalr.ProjectExampleApi\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Signalr\\Signalr.ProjectExampleApi\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "Signalr.ProjectExampleApi\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:22:44.993Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
